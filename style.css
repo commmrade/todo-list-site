@@ -1,0 +1,61 @@
+body {
+    background-image: linear-gradient(to right, #d86345, #9b6033);
+    /* You can adjust the direction and colors as needed */
+    /* For example, to create a vertical gradient, you can use 'to bottom' */
+    /* background-image: linear-gradient(to bottom, #ff7e5f, #feb47b); */
+    
+    /* Add any other styling properties you want */
+    height: 100vh; /* Set the height of the element */
+}
+
+.container {
+    width: 30%;
+    margin: 100px auto;
+    padding: 50px 80px;
+    position: relative;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+}
+h1
+{
+    padding: 10px;
+    user-select: none;
+}
+ol {
+    list-style-type: none;
+    position: relative;
+}
+ul li
+{
+    user-select: none;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    word-wrap: break-word;
+    text-align: left
+}
+ul li:hover
+{
+    background-color: #d3cece;
+    border-radius: 10px;
+}
+button
+{
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: rgb(218, 81, 40);
+    cursor: pointer;
+}
+input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #c21e18; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(196, 13, 13, 0.5); /* Add a subtle box shadow on focus */
+}
